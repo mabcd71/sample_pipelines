@@ -1,0 +1,8 @@
+resources:
+  - name: nginx-image-prod82
+    type: image
+    integration: "docker-subint"
+    pointer:
+      sourceName: "ankul/nginx"
+    seed:
+      versionName: prod.8
